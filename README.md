@@ -22,7 +22,7 @@ Usage
 
 Run the "xpath-server.pl" script (modify the run-xpath-server.sh script for your environment; it'll run the server and swallow the output).
 
-Highlight some XML and hit M-x eval-xpath.  You'll be prompted for an XPath expression.  Once you enter it, the result will be displayed in a buffer in 'nxml mode, wrapped in "<result>" tags.
+Highlight some XML and hit M-x eval-xpath.  You'll be prompted for an XPath expression.  Once you enter it, the result will be displayed in a buffer in 'nxml mode, wrapped in "result" tags.
 
 To change the port the server runs on, you'll have to edit both the xpath-server.pl file and xpath.el file to change 5000 to some other port.
 
@@ -33,5 +33,5 @@ Free free to send any bugs / requested features my way, and I'll try to find tim
 
 I initially intended to patch Emacs' xml.c and rebuild, but this seemed simpler.  Of course, this introduces an external dependency, but... oh well.  Maybe later.
 
-- Bill (bill@c20g.com)
+- Bill 
 
